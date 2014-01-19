@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="155dp"
+        android:layout_height="59dp"
+        android:gravity="center_horizontal"
+        android:text="@string/hello"
+        android:textColor="@color/topicColor"
+        android:textSize="20dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="addMember"
+        android:src="@android:drawable/ic_input_add" />
+
+    <ListView
+        android:id="@+id/songsListView"
+        android:layout_width="fill_parent"
+        android:layout_height="378dp" >
+    </ListView>
+
+</LinearLayout>
